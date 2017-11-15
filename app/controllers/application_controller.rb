@@ -1,12 +1,12 @@
 class ApplicationController < ActionController::API
 
-  @@sign_up_ms_url = 'http://192.168.99.101:3000'
-  @@sessions_ms_url = 'http://192.168.99.101:3001'
-  @@upload_ms_url = 'http://192.168.99.101:3002'
-  @@information_ms_url = 'http://192.168.99.101:3003'
-  @@category_classifier_ms_url = 'http://192.168.99.101:3004'
+  @@sign_up_ms_url = 'http://192.168.99.102:3000'
+  @@sessions_ms_url = 'http://192.168.99.101:3051'
+  @@upload_ms_url = 'http://192.168.99.104:3052'
+  @@information_ms_url = 'http://192.168.99.102:3003'
+  @@category_classifier_ms_url = 'http://192.168.99.104:3004'
   @@cover_upload_ms_url = 'http://192.168.99.101:3005'
-  @@download_ms_url = 'http://192.168.99.101:3006'
+  @@download_ms_url = 'http://192.168.99.104:3056'
   @@ldap_url = 'http://192.168.99.101:4001'
 
   def jsonify( httparty_results )
