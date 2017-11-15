@@ -1,1 +1,1 @@
-./rancher-compose --project-name api-gateway --url http://192.168.99.100:8080/v1/projects/1a5 --access-key 4C7AB93549BE7F2D24D7 --secret-key 8CoStAPkK8jg3tZXpkhCxnLdK24h733hGLF58LBd -f docker-compose.yml --verbose up -d --force-upgrade --confirm-upgrade
+./rancher-compose --project-name api-gateway --url http://192.168.99.100:8080/v1/projects/1a5 --access-key 83C2303F3C1CE12AEBBB --secret-key r6MrtdDxtyNATmbYknhaPXAaXTtypR3okFyVFHXL -f docker-compose.yml --verbose up -d --force-upgrade --confirm-upgrade
